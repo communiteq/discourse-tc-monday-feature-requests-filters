@@ -20,8 +20,9 @@ export default {
           displayName: filter,
           title,
           href: location,
-          forceActive: (category, args, router) =>
-            router.currentURL.includes(location),
+          forceActive: (category, args, router) => {
+            return router.currentURL == location;
+          }
         });
       }
     });

@@ -11,3 +11,32 @@
     }
   }
 }
+
+#navigation-bar {
+  li.nav-item_custom_all-requests,
+  li.nav-item_custom_under-consideration,
+  li.nav-item_custom_on-roadmap,
+  li.nav-item_custom_not-on-roadmap,
+  li.nav-item_custom_released,
+  li.nav-item_custom_long-term-roadmap,
+  li.nav-item_all {
+      display: none;
+  }
+}
+
+body.category-feature-requests #navigation-bar {
+  li.nav-item_top,
+  li.nav-item_latest,
+  li.nav-item_new {
+      display: none
+  }
+  li.nav-item_custom_all-requests,
+  li.nav-item_custom_under-consideration,
+  li.nav-item_custom_on-roadmap,
+  li.nav-item_custom_not-on-roadmap,
+  li.nav-item_custom_released,
+  li.nav-item_custom_long-term-roadmap,
+  li.nav-item_all {
+      display: flex;
+  }
+}
