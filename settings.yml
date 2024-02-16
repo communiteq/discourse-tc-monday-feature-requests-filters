@@ -1,6 +1,6 @@
 Nav_links:
   type: list
-  default: "Under Consideration;Features under consideration;/tags/c/submit-an-idea/5/none/under-consideration/|On Roadmap;on roadmap;/tags/c/submit-an-idea/5/none/on-roadmap/|Not on Roadmap;Not on roadmap;/tags/c/submit-an-idea/5/none/not-on-roadmap/|Released;Released Features;/tags/c/submit-an-idea/5/none/released/"
+  default: "All requests;All requested features;/c/feature-requests/7/all|New;Newly requested features;/c/feature-requests/7/all?ascending=false&order=created|Under Consideration;Features under consideration;/tags/c/feature-requests/7/none/under-consideration|On Roadmap;on roadmap;/tags/c/feature-requests/7/none/on-roadmap|Released;Released Features;/tags/c/feature-requests/7/none/released|Long-term Roadmap;Long-term roadmap;/tags/c/feature-requests/7/none/long-term-roadmap"
   description:
     en: |
       Semicolon delimited in this order: <strong>display name;description;URL</strong>
