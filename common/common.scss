@@ -14,6 +14,7 @@
 
 #navigation-bar {
   li.nav-item_custom_all-requests,
+  li.nav-item_custom_new,
   li.nav-item_custom_under-consideration,
   li.nav-item_custom_on-roadmap,
   li.nav-item_custom_not-on-roadmap,
@@ -31,6 +32,7 @@ body.category-feature-requests #navigation-bar {
       display: none
   }
   li.nav-item_custom_all-requests,
+  li.nav-item_custom_new,
   li.nav-item_custom_under-consideration,
   li.nav-item_custom_on-roadmap,
   li.nav-item_custom_not-on-roadmap,
